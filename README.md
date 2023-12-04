@@ -1,0 +1,1 @@
+docker run -it -p 1880:1880 -v node_red_data:/data --device=/dev/ttyACM0:/dev/ttyACM0 --user root --rm --name mynodered nodered/node-red
